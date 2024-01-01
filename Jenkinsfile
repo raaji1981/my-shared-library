@@ -9,10 +9,6 @@ pipeline {
                 // Use the shared step from the library
                 mySharedStep()
 
-                // Use a function from the Helper class
-                script {
-                    Helper.printMessage("Using Helper class")
-                }
             }
         }
     }
